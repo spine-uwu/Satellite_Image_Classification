@@ -40,10 +40,10 @@ The project follows a standard image classification pipeline:
 
 The model classifies satellite images into the following categories:
 
-- [TODO: e.g. Cloudy]
-- [TODO: e.g. Desert]
-- [TODO: e.g. Green Area]
-- [TODO: e.g. Water]
+- [PermanentCrop]
+- [AnnualCrop]
+
+
 
 > Update this list with your actual class labels.
 
@@ -51,12 +51,15 @@ The model classifies satellite images into the following categories:
 
 ## 📊 Results
 
-| Metric     | Value          |
-|------------|----------------|
-| Accuracy   | [TODO: e.g. 92%] |
-| Loss       | [TODO]         |
-| Model      | [TODO: e.g. CNN / ResNet50] |
-| Framework  | [TODO: e.g. TensorFlow / PyTorch] |
+```markdown
+| Preprocessing          | Accuracy | Precision | Recall | Specificity | F1 Score |
+|------------------------|----------|-----------|--------|-------------|----------|
+| None                   | 95.10%   | 97.00%    | 93.45% | 96.88%      | 95.20%   |
+| Difference in Gaussian | 95.10%   | 96.60%    | 93.79% | 96.49%      | 95.18%   |
+| Log Transform          | 94.00%   | 94.40%    | 93.65% | 94.35%      | 94.02%   |
+| Sobel                  | 94.40%   | 97.20%    | 92.05% | 97.03%      | 94.56%   |
+| Negative               | 93.50%   | 96.20%    | 91.27% | 95.98%      | 93.67%   |
+```
 
 ---
 
@@ -64,7 +67,7 @@ The model classifies satellite images into the following categories:
 
 - **Language:** Python
 - **Environment:** Jupyter Notebook
-- **Libraries:** [TODO: e.g. TensorFlow, Keras, NumPy, Matplotlib, scikit-learn, OpenCV]
+- **Libraries:** [PyTorch, Keras, NumPy, Matplotlib, OpenCV]
 
 ---
 
@@ -109,10 +112,10 @@ A detailed technical report covering the image processing methodology, model des
 ## 👥 Contributors
 
 - [@spine-uwu](https://github.com/spine-uwu)
-- [TODO: Add other contributors if any]
+- (https://github.com/mimonT-T)
 
 ---
 
 ## 📜 License
 
-This project is for academic/educational purposes. [TODO: Add a license if needed — e.g. MIT License]
+This project is for academic/educational purposes.
