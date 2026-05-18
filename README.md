@@ -1,16 +1,16 @@
-# 🛰️ Satellite Image Classification
+# Satellite Image Classification
 
 A machine learning project that applies image processing techniques and classification models to satellite imagery. Built and documented as part of an image processing course/project, with an accompanying technical report.
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project explores the use of computer vision and machine learning to classify satellite images into meaningful categories. The pipeline covers data preprocessing, model training, evaluation, and output storage — all implemented in Jupyter Notebooks.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 Satellite_Image_Classification/
@@ -24,19 +24,19 @@ Satellite_Image_Classification/
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 The project follows a standard image classification pipeline:
 
-1. **Data Collection** — Satellite images sourced from [TODO: dataset name, e.g. EuroSAT / UC Merced / Kaggle]
+1. **Data Collection** — Satellite images sourced from EuroSAT
 2. **Preprocessing** — Image resizing, normalization, and augmentation
-3. **Model Training** — [TODO: model architecture, e.g. CNN / ResNet / EfficientNet] trained on labelled satellite images
+3. **Model Training** — ResNet50 trained on labelled satellite images
 4. **Evaluation** — Performance assessed using accuracy, confusion matrix, and other metrics
 5. **Output** — Trained model saved to `modelOutput/`
 
 ---
 
-## 🗂️ Image Classes
+## Image Classes
 
 The model classifies satellite images into the following categories:
 
@@ -45,11 +45,10 @@ The model classifies satellite images into the following categories:
 
 
 
-> Update this list with your actual class labels.
 
 ---
 
-## 📊 Results
+## Results
 
 ```markdown
 | Preprocessing          | Accuracy | Precision | Recall | Specificity | F1 Score |
@@ -63,7 +62,7 @@ The model classifies satellite images into the following categories:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python
 - **Environment:** Jupyter Notebook
@@ -71,7 +70,7 @@ The model classifies satellite images into the following categories:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -101,7 +100,7 @@ Open the notebooks inside the `notebooks/` folder and run them in order.
 
 ---
 
-## 📄 Report
+## Report
 
 A detailed technical report covering the image processing methodology, model design decisions, and experimental results is available in the repository:
 
@@ -109,13 +108,13 @@ A detailed technical report covering the image processing methodology, model des
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 - [@spine-uwu](https://github.com/spine-uwu)
-- (https://github.com/mimonT-T)
+- [@mimonT-T](https://github.com/mimonT-T)
 
 ---
 
-## 📜 License
+## License
 
 This project is for academic/educational purposes.
